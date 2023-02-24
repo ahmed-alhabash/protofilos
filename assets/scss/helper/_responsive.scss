@@ -1,0 +1,658 @@
+@media(max-width:767px){
+    header{
+        overflow: hidden;
+    }
+    .subHeader{
+   
+    }
+    .Thanks-box{
+        width: 311px;
+        height: 155px;
+        right: 2%;
+    }
+    .Thanks-box .content .title_box h4{
+        margin-left: 22px;
+        font-size: 19px;
+    }
+    .Thanks-box .content .image {
+        width: 45px;
+    }
+    .Thanks-box .content .image::after {
+        left: 37px;
+        top: 28px;
+        width: 10px;
+        height: 10px;
+    
+    }
+    .Thanks-box::after{
+        right: 18px;
+    }
+    .subHeader ul{
+        top: 31%;
+    }
+    .subHeader ul li{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    }
+    .subHeader ul li::before 
+{
+    font-size: 16px;
+    right: 38px;
+    width: 80px;
+    height: 40px;
+}
+.subHeader ul li::after{
+    width: 17px;
+    height: 16px;
+    right: 29px;
+}
+    .All-sections .social-media{
+    width: 55px;
+
+    }
+    .All-sections .information .box .info-cards .title {
+        margin-left: 10px;
+        transition: 300ms ease-in-out all;
+    }
+    .All-sections .information .box{
+        height: 645px;
+    }
+    header .navbar .navbar-nav .nav-item .nav-link{
+        &:hover{
+           color: #08d565;
+           padding-left: 20px;
+        }
+    }
+    .All-sections .About .downloud {
+        padding: 10px 16px;
+    }
+    .All-sections .About .title .mainTitle{
+    font-size: 25px;
+    padding-top: 25px;
+    width: 100%;
+    }
+    .All-sections .About .title .subTitle{
+        font-size: 18px;
+        
+    }
+    .All-sections .social-media .search{
+        padding: 18px 15px;
+        i{
+          font-size: 20px;
+        }
+    }
+    .All-sections .About .title{
+        text-align: left;
+    }
+    .All-sections .information{
+    top: -870px;
+    right: -12px;
+    }
+    .All-sections .information .box{
+        width: 100%;
+    }
+    
+    header .navbar .icons{
+        top: 76%;
+        border-top: 2px solid #1f2336;
+        right: 3px;
+    }
+    .All-sections .About .image{
+        width:100%;
+    }
+    .All-sections .About .imagebg img{
+        width: 100%;
+    }
+    .All-sections .About .imagebg{
+        margin-top: 35px;
+    }
+    header .navbar .logo img{
+        width: 81%;
+    }
+    header .navbar .icons{
+        padding: 42px 34px;
+    }
+    header .navbar .languages{
+        right: 0;
+        top: 51%;
+        padding: 31px 16px;
+        font-size: 18px;
+        border-top: 2px solid #1f2336 ;
+    }
+    header .navbar .icon_love{
+        right: 2px;
+        top: 29%;
+        border-top: 2px solid #1f2336 ;
+    }
+    header .navbar .icon_love i{
+        padding: 21px 17px;
+    }
+    header .navbar .logo::after,
+    .All-sections .About .circle,
+    .All-sections .About .icons,
+    .skills .imageUP,
+    .skills .imageDown{
+        display: none;
+    }
+    .All-sections .information .box .info-cards .title .subTitle{
+        font-size: 13px;
+    }
+    .All-sections .information .box .info-cards .title .mainTitle{
+        font-size: 17px;
+    }
+    // MY SKILL START
+
+    .skills .title .mainTitle{
+        font-size: 29px;
+    }
+    .skills .title .subTitle{
+        font-size: 16px;
+    }
+    .skills .box .image img{
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    .skills .box .image{
+        margin-bottom: 33px;
+    }
+    .skills .years .years-one p, .skills .years .years-tow p, .skills .years .years-three p{
+        font-size: 14px;
+    }
+    .skills .years .years-one li, .skills .years .years-tow li, .skills .years .years-three li{
+        font-size: 18px;
+    }
+    .skills .years .years-one li, .skills .years .years-tow li, .skills .years .years-three li{
+        padding-left: 0;
+    }
+    .skills .box .box-skill .html, .skills .box .box-skill .css, .skills .box .box-skill .js, .skills .box .box-skill .ts, .skills .box .box-skill .bootsrtap, .skills .box .box-skill .scss, .skills .box .box-skill .jquery, .skills .box .box-skill .vue-js, .skills .box .box-skill .wordpress,.skills .box .box-skill .github{
+        width: 70px;
+        height: 70px;        
+    } 
+    .skills .box .box-skill .wordpress{
+        top: -16%;
+        left: 40%;
+    }
+    .skills .box .box-skill .html{
+        top: -4%;
+        left: 14%;
+    }
+    .skills .box .box-skill .css{
+        top: 24%;
+        left: -1%;
+    }
+    .skills .box .box-skill .js{
+        top: 57%;
+        left: -1%;
+    }
+    .skills .box .box-skill .ts{
+        top: 93%;
+        left: 39%;
+    }
+    .skills .years{
+        padding-top: 25px;
+    }
+    .skills .box .box-skill .bootsrtap{
+        top: 82%;
+        left: 67%;
+    }
+    .skills .box .box-skill .scss{
+        top: 57%;
+        left: 81%;  
+    }
+    
+    .skills .box .box-skill .jquery{
+        top: 24%;
+        left: 82%;
+    }
+    .skills .box .box-skill .vue-js{
+        top: -5%;
+        left: 67%;
+    }
+    .my-project .line{
+        display: inline-block!important;
+
+    }
+    .my-project .line .nav {
+        width: 100%;
+        flex-direction: row!important;
+        margin-bottom: 40px;
+    }
+    .nav-pills .nav-link{
+        width: calc(25% - 4px);
+        margin-bottom: 0;
+        height: 41px;
+        font-size: 10px;
+        padding: 0px;  
+    }
+    .channels .imageFadeDown,
+    .channels .imageFade{
+        display: none;
+    }
+    .channels .title .mainTitle{
+        font-size: 25px;
+    }
+    .channels .title .subTitle{
+        font-size: 10px;
+    }
+    .channels .box .icon i{
+        justify-content: center;
+    }
+    .channels .box .icon p{
+        font-size: 17px;
+        padding-top: 30px;
+    }
+    .channels .box .image{
+        justify-content: center;
+    }
+    .channels .box .text p{
+        padding-top: 30px;
+        font-size: 16px;
+    }
+    .channels .box:hover .button{
+        left: 116px;
+        opacity: 1;
+        z-index: 2;
+    }
+    .channels .box .button{
+        width: 40px;
+        height: 40px;
+        bottom: -21px;
+        z-index: 2;
+    }
+    .channels .title{
+        padding-bottom: 30px;
+    }
+    .channels .box{
+        margin-top: 0;
+        height: 200px;
+    }
+    .Portfolio .title .mainTitle{
+        font-size: 35px;
+    }
+    .Portfolio .my-project .box{
+        margin-bottom: 20px;
+    }
+    .Portfolio .my-project .box .image img{
+        height: 160px;
+    }
+    .nav-pills .nav-link span{
+        font-size: 17px;
+    }
+    .Portfolio .my-project .box .overLayButtons .ariaOverLay .text h4{
+        font-size: 10px;
+    }
+    .Portfolio .my-project .box .overLayButtons .ariaOverLay .icons a{
+        width: 35px;
+        height: 35px;
+    }
+    .Portfolio .my-project .box .overLayButtons .ariaOverLay .icons a i{
+        font-size: 13px;
+    }
+    .Portfolio .my-project .box .overLayButtons .ariaOverLay{
+        left: 12px;
+    }
+    .Portfolio .my-project .box .overLayButtons .ariaOverLay .text h5{
+        font-size: 13px;
+    }
+    .contact-us .title{
+        padding-bottom: 0;
+    }
+    .contact-us .contact-panel{
+        margin-top: 20px;
+        padding: 20px 12px;
+        height: 400px;
+    }
+    .carousel .box .parent div{
+        padding: 45px 60px;
+    }
+    .contact-us .contact-panel .panel-box .panel-cards .icons i{
+        font-size: 20px;
+    }
+    .contact-us .contact-panel .panel-box .panel-cards .icons{
+    width: 45px;
+    height: 45px;
+    }
+    .contact-us .contact-panel .panel-title h5{
+        font-size: 22px;
+    }
+    .carousel .box .parent div h4{
+        font-size: 14px;       
+        top: 46%;
+    }
+    .contact-us .title .mainTitle,
+    .carousel .title .subTitle{
+        font-size: 35px;
+    }
+    .contact-us .box-contact h4,
+    .contact-us .title .subTitle,
+    .carousel .title .mainTitle{
+        font-size: 16px;
+    }
+    .contact-us .box-contact h4{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contact-us .box-contact form input{
+        width: 46%;
+    }
+    .contact-us .box-contact form .text-aria,
+    .contact-us .box-contact form input:nth-child(3){
+        width: 96%;
+    }
+    footer .image-overLay,
+    footer .image-overLay-right img{
+        display: none;
+    }
+    footer .text .discription{
+        width: 100%;
+        text-align: center;
+    }
+    footer{
+        padding-top: 15px;
+    }
+    footer .buttons{
+        top: 23px;
+        right: 4%;
+        z-index: 3;
+    }
+    .tanks-msg {
+        left: 50%;
+        font-size: 13px;
+        top: 88%;
+    }
+    .loading{
+        position: absolute;
+         top: 89%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .contact-us .contact-panel .panel-box .panel-cards .informations {
+     font-size: 16px;
+    }
+}
+@media(min-width:768px) and (max-width:991px) {
+    header .navbar .logo::after{
+        top: 0;
+        left: 100px;
+        height: 68px;
+    }
+    header .navbar .icons{
+        top: 77%;
+    }
+    .All-sections .social-media{
+        width: 100px;
+    }
+    .All-sections .information .box .info-cards .title {
+        margin-left: 10px;
+        transition: 300ms ease-in-out all;
+    }
+    header .navbar .navbar-nav .nav-item .nav-link{
+        &:hover{
+           color: #08d565;
+           padding-left: 20px;
+        }
+    }
+    .Thanks-box .content .title_box h4{
+        margin-left: 22px;
+        font-size: 19px;
+    }
+    .Thanks-box .content .image {
+        width: 45px;
+    }
+    .Thanks-box .content .image::after {
+        left: 37px;
+        top: 28px;
+        width: 10px;
+        height: 10px;
+    
+    }
+    .All-sections .About .downloud {
+        padding: 10px 16px;
+    }
+    .All-sections .About .title .mainTitle{
+        font-size: 35px;
+        padding-top: 50px;
+    }
+    .All-sections .About .title .subTitle{
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    .All-sections .social-media .search{
+      padding: 18px 34px;
+        i{
+          font-size: 20px;
+        }
+    }
+
+    .All-sections .About .title{
+     text-align: center;
+    }
+    .All-sections .information{
+    top: -870px;
+    }
+    .All-sections .information .box{
+        width: 100%;
+        height: 648px;
+    }
+    header .navbar .icons{
+        top: 76%;
+        border-top: 2px solid #1f2336;
+        right: 3px;
+    }
+    .All-sections .About .circle{
+        top: 2%;
+        left: 42%;
+    }
+    .All-sections .About .image{
+        width: 60%;
+    }
+    .All-sections .About .imagebg img{
+        width: 100%;
+    }
+    .All-sections .About .imagebg{
+        margin-top: 35px;
+    }
+    header .navbar .logo img{
+        width: 76%;
+    }
+    header .navbar .icons{
+        padding: 42px 34px;
+    }
+    header .navbar .languages{
+        right: 0;
+        top: 52%;
+        padding: 31px 16px;
+        font-size: 18px;
+        border-top: 2px solid #1f2336 ;
+    }
+    header .navbar .icon_love{
+        right: 2px;
+        top: 30%;
+        border-top: 2px solid #1f2336 ;
+    }
+    header .navbar .icon_love i{
+        padding: 21px 17px;
+    }
+    .All-sections .information .box .info-cards .title .subTitle{
+        font-size: 13px;
+    }
+    .All-sections .information .box .info-cards .title .mainTitle{
+        font-size: 17px;
+    }
+    // MY SKILL START
+
+    .skills .title .mainTitle{
+        font-size: 35px;
+    }
+    .skills .title .subTitle{
+        font-size: 16px;
+    }
+    .skills .years {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    }
+    .skills .box .image{
+        width: 80%;
+        margin: auto;
+    }
+    .my-project .line{
+        display: inline-block!important;
+
+    }
+    .my-project .line .nav {
+        width: 111%;
+        flex-direction: row!important;
+        margin-bottom: 40px;
+    }
+    .nav-pills .nav-link{
+        width: calc(25% - 11px);
+        height: 41px;
+        font-size: 17px;
+        text-align: center;
+        height: 62px;
+    }
+    .channels .imageFadeDown,
+    .channels .imageFade{
+        display: none;
+    }
+    .channels .title .mainTitle{
+       font-size: 35px;
+
+        }
+    .channels .title .subTitle{
+        font-size: 17px;
+    }
+    .channels .box .icon i{
+        justify-content: center;
+    }
+    .channels .box .icon p{
+        font-size: 17px;
+        padding-top: 30px;
+    }
+    .channels .box .image{
+        justify-content: center;
+    }
+    .channels .box .text p{
+        padding-top: 30px;
+        font-size: 16px;
+    }
+    .channels .box:hover .button{
+        left: 140px;
+        opacity: 1;
+        z-index: 2;
+    }
+    .channels .box .button{
+        width: 40px;
+        height: 40px;
+        bottom: -21px;
+        z-index: 2;
+    }
+    .channels .title{
+        padding-bottom: 30px;
+    }
+    .channels .box{
+        margin-top: 0;
+        height: 200px;
+    }
+    .Portfolio .title .mainTitle{
+        font-size: 35px;
+    }
+    .Portfolio .my-project .box{
+        margin-bottom: 20px;
+    }
+    .nav-pills .nav-link span{
+        font-size: 17px;
+    }
+    .Portfolio .my-project .box .overLayButtons .ariaOverLay .text h4{
+        font-size: 10px;
+    }
+    .Portfolio .my-project .box .overLayButtons .ariaOverLay .icons a{
+        width: 35px;
+        height: 35px;
+    }
+    .Portfolio .my-project .box .overLayButtons .ariaOverLay .icons a i{
+        font-size: 13px;
+    }
+    .Portfolio .my-project .box .overLayButtons .ariaOverLay{
+        left: 12px;
+    }
+    .Portfolio .my-project .box .overLayButtons .ariaOverLay .text h5{
+        font-size: 13px;
+    }
+    .contact-us .title{
+        padding-bottom: 0;
+    }
+    .contact-us .contact-panel{
+        margin-top: 20px;
+        padding: 20px 12px;
+        height: 400px;
+    }
+    .contact-us .contact-panel .panel-box .panel-cards .icons i{
+        font-size: 20px;
+    }
+    .contact-us .contact-panel .panel-box .panel-cards .icons{
+    width: 45px;
+    height: 45px;
+    }
+    .contact-us .contact-panel .panel-title h5{
+        font-size: 22px;
+    }
+    .carousel .box .parent div h4{
+        font-size: 14px;       
+        top: 46%;
+    }
+    .contact-us .title .mainTitle,
+    .carousel .title .subTitle{
+        font-size: 35px;
+    }
+
+    .contact-us .box-contact h4,
+    .contact-us .title .subTitle,
+    .carousel .title .mainTitle{
+        font-size: 17px;
+    }
+    .contact-us .box-contact h4{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contact-us .box-contact form input{
+        width: 48%;
+    }
+    .contact-us .box-contact form .text-aria,
+    .contact-us .box-contact form input:nth-child(3){
+        width: 98%;
+    }
+    footer .image-overLay,
+    footer .image-overLay-right img{
+        display: none;
+    }
+    footer .text .discription{
+        width: 100%;
+        text-align: center;
+    }
+    footer{
+        padding-top: 15px;
+    }
+    footer .buttons{
+        top: 20px;
+        right: 4%;
+        z-index: 3;
+    }
+    .tanks-msg {
+        left: 50%;
+        font-size: 13px;
+        top: 88%;
+    }
+    .loading{
+        position: absolute;
+        top: 88%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

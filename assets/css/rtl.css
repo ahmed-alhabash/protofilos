@@ -1,0 +1,235 @@
+header .navbar .logo{
+    margin-right: 2px;
+    width: 115px;
+}
+::-webkit-scrollbar-track{
+    background-color: #1f2336;
+}
+.tanks-msg{
+    left: 51%;
+    font-size: 23px;
+}
+.All-sections .information{
+    z-index: 3;
+}
+.All-sections .About .icons{
+    right: -169px;
+    left: -11px;
+}
+.nav-pills .nav-link{
+    text-align: right;
+}
+.nav-pills .nav-link{
+    margin-left: 11px;
+}
+.Thanks-box .content .image::after {
+    left: -3px;
+    top: 38px;
+}
+.Thanks-box .content .title_box h4{
+    margin-right: 10px;
+}
+.tanks-msg{
+    display: none;
+}
+.All-sections .information{
+    right: 122px;
+}
+.subHeader ul{
+    position: fixed;
+    right: 91%;
+    top: 50%;
+}
+.channels .box .button a i{
+    rotate: 180deg;
+}
+.channels .box:hover .button{
+    left: 50px;
+    opacity: 1;
+}
+.Portfolio .my-project .box .overLayButtons .ariaOverLay .icons a i{
+    rotate: 180deg;
+}
+header .navbar .languages{
+    right: 23%;
+}
+header .navbar .icon_love{
+    right: 17%;
+}
+header .navbar .icons{
+    right: 11%;
+}
+header .navbar .logo::after{
+    top: -4px;
+    left: 7%;
+}
+header .navbar .icon_love{
+    top: 4px;
+
+}
+header .navbar .icon_love i{
+    padding: 31px 22px;
+}
+header .navbar .languages{
+    padding: 34px 14px;
+}
+.Thanks-box{
+    right: 16%;
+}
+.contact-us .contact-panel .panel-box .panel-cards .informations span:first-child{
+    margin-left: 10px;
+}
+.subHeader ul li::before{
+    right: -125px;
+}
+.tanks-msg{
+    left: 50%;
+    font-size: 23px;
+    top: 50%;
+}
+.subHeader ul li::after{
+    right: -35px;
+}
+.contact-us .box-contact form input{
+    width: 49%;
+}
+.contact-us .box-contact form input:nth-child(3){
+    width: 99%;
+}
+.contact-us .box-contact form .text-aria{
+    width: 99%;
+}
+
+@keyframes a {
+    to {
+      transform: translatex(2520px);
+    }
+  }
+  .contact-us .box-contact form input {
+    margin-right: 0px;
+}
+.loading{
+    left: 50%;
+}
+  footer .informaton{
+    margin-right: -14px;
+  }
+  footer .informaton .nav-link-footer span:last-child:hover, footer .informaton .nav-link-footer a:hover, footer .informaton li span:last-child:hover{
+    padding-left: 0px;
+  }
+  @media(max-width:778px){
+    header .navbar .icons {
+        right: 84%;
+        border-right: 2px solid #1f2336;
+        border-left: none;
+        border-right: 2px solid #1f2336;
+        padding: 43px 30px;
+    }
+    .subHeader ul {
+        position: fixed;
+        right: 80%;
+        top: 34%;
+    }
+    .All-sections .About .title{
+        text-align: right;
+    }
+    .subHeader ul li::before {
+        right: -106px;
+    }
+    header .navbar .languages {
+        right: 84%;
+        border-right: 2px solid #1f2336;
+        border-left: none;
+        padding: 22px 9px;
+        top: 57%;
+    }
+    footer .buttons{
+        right: 80%;
+    }
+    header .navbar .languages a{
+        font-size: 14px;
+    }
+    header .navbar .navbar-nav .nav-item .nav-link:hover{
+        padding-right: 20px;
+    }
+    .Thanks-box{
+        width: 305px;
+        height: 171px;
+    }
+    .Thanks-box::after{
+        right: 87%;
+    }
+    .All-sections .information{
+        top: -870px;
+        right: 50px;
+        }
+    header .navbar .icon_love {
+        top: 140px;
+        right: 84%;
+        border-right: 2px solid #1f2336;
+        border-left: none;
+    }
+
+    header .navbar .icon_love i{
+        padding: 16px 13px;
+    }
+    .nav-pills .nav-link{
+      margin-left: 0;
+    }
+    .loading{
+        top: -37px;
+    }
+    .tanks-msg{
+        top: -32px;
+    }
+  }
+  @media(min-width:778px) and (max-width:992px)  {
+    header .navbar .icons {
+        right: 78%;
+      border-right: 2px solid #1f2336;
+      border-left: none;
+      border-right: 2px solid #1f2336;
+      padding: 42px 41px;
+  }
+  header .navbar .languages {
+      right: 78%;
+      border-right: 2px solid #1f2336;
+      border-left: none;
+      padding: 28px 14px;
+  }
+
+  header .navbar .navbar-nav .nav-item .nav-link:hover{
+      padding-right: 20px;
+  }
+  footer .buttons {
+    top: 21px;
+    right: 88%;
+    z-index: 3;
+}
+  .Thanks-box{
+      width: 305px;
+      height: 171px;
+  }
+  .Thanks-box::after{
+      right: 87%;
+  }
+  .tanks-msg{
+    top: -41px;
+}
+.loading{
+    top: -37px;
+}
+  header .navbar .icon_love {
+      top: 78px;
+      right: 78%;
+      border-right: 2px solid #1f2336;
+      border-left: none;
+  }
+  header .navbar .icon_love i{
+      padding: 16px 22px;
+  }
+  .nav-pills .nav-link{
+    margin-left: 0;
+  }
+
+  }

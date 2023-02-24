@@ -1,0 +1,70 @@
+@import '../assets/scss/helper/mixin';
+@import '../assets/scss/helper/z.scss';
+@import '../assets/scss/compound/header';
+@import '../assets/scss/compound/footer';
+@import '../assets/scss/page/protofilo';
+@import '../assets/scss/helper/animations';
+@import '../assets/scss/helper/responsive';
+body{
+    font-family: 'Rajdhani-Bold';
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+ width: 15px;
+}
+
+::-webkit-scrollbar-track{
+     background-color: #272b44;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #08d565;
+}
+a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color: white; ;
+    }
+}
+ul li{
+    list-style: none;
+}
+@font-face {
+    font-family: 'Rajdhani-Bold';
+    src: url('../fonts/rajdhani/Rajdhani-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rajdhani-Medium';
+    src: url('../fonts/rajdhani/Rajdhani-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('../fonts/rajdhani/Rajdhani-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rajdhani Semibold';
+    src: url('../fonts/rajdhani/Rajdhani-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rajdhani-Regular';
+    src: url('../fonts/rajdhani/Rajdhani-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

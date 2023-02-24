@@ -1,0 +1,122 @@
+@keyframes flashing {
+    50%{
+        transform: scale(0);
+    }
+}
+@keyframes rotats {
+50%{
+    transform:rotate(1turn);
+}    
+}
+
+.show{
+    top: 0px!important;
+}
+.show_box{
+    top: 115px !important;
+}
+.loading{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: none;
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #08d565;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+    } 
+    @keyframes up-and-down {
+        50%{
+            transform: translateY(-10px);
+        }
+        
+    }
+
+}
+@keyframes a {
+    to {
+      transform: translatex(-2520px);
+    }
+  }
+@keyframes fadeIn {
+    50%{
+        opacity: 0;
+    }
+}
+.tanks-msg{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    color: white;
+    text-transform: capitalize;
+    display: none;
+}
+
+// page over lay 
+.overLayPage{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #1f2336;
+    top: 0;
+    left: 0;
+    transition: all 300ms ease-in-out;
+    z-index: 10;
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #FFF;
+    border-bottom-color: #08d565;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+    }
+}
+.close{
+    top: 19px !important;
+    rotate: -45deg !important;
+}
+.closeAnimat{
+    top: 19px !important;
+    rotate: 45deg !important;
+}
+.opac{
+opacity: 0;
+
+}
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+// page over lay 
+
+
+// animation bar start
+// animation bar end 
